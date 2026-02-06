@@ -1,0 +1,32 @@
+# models.yaml
+models:
+  qwen3-max-preview:
+    provider: "openai"
+    name: "qwen3-max-preview"
+    env_key_name: "DASHSCOPE_API_KEY"  # 指定对应的环境变量名
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+  kimi-k2.5:
+    provider: "openai"
+    name: "kimi-k2.5"
+    env_key_name: "KIMI_API_KEY"
+    base_url: "https://api.moonshot.cn/v1"
+    temperature: 1
+
+  gemini-3-flash-preview:
+    provider: "openai"
+    name: "google/gemini-3-flash-preview"
+    env_key_name: "OPENROUTER_API_KEY"
+    base_url: "https://openrouter.ai/api/v1"
+
+  deepseek-v3.2:
+    provider: "openai"
+    name: "deepseek/deepseek-v3.2"
+    base_url: "https://api.deepseek.com"
+    env_key_name: "OPENROUTER_API_KEY"
+    base_url: "https://openrouter.ai/api/v1"
+
+  local-llama:
+    provider: "ollama"
+    name: "llama3"
+    # Ollama 通常不需要 API Key

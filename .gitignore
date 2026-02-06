@@ -1,0 +1,28 @@
+#  敏感信息
+.env
+
+# Python 缓存
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 输出与日志（避免误提交数据与日志）
+logs/
+
+# IDE 与编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 虚拟环境（如有）
+venv/
+env/
+.env

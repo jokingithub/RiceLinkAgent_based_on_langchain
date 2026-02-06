@@ -1,0 +1,17 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "flow": "./app/graphs/flow.py:app"
+  },
+  "env": ".env",
+  "ui_config": {
+    "nodes": {
+      "analyzer": {
+        "color": "#ff4444"
+      },
+      "search_tool": {
+        "color": "#44ff44"
+      }
+    }
+  }
+}
